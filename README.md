@@ -1,6 +1,6 @@
 # Grocery access in Chicago 2021–2025
 
-Emmanuel Amissah Sampson · **Release candidate: 17 November 2026 · v1.0.0**
+Emmanuel Amissah Sampson · **Published: 17 November 2026 · v1.0.0**
 
 This study examines five verified grocery closures and one replacement opening at five Chicago locations. It combines reviewed business dates, USDA SNAP authorization histories, Chicago inspections, Census tract context and a fixed historical street network. The current release is a descriptive access study. Observed mobility and causal effects remain pending a reviewed licensed input.
 

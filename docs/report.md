@@ -4,7 +4,7 @@ Historical evidence and before and after comparisons 2021–2025
 
 Emmanuel Amissah Sampson · University of Pennsylvania
 
-Release candidate · 17 November 2026 · v1.0.0
+Published · 17 November 2026 · v1.0.0
 
 ## Abstract
 
@@ -117,7 +117,7 @@ These patterns identify places and assumptions for closer investigation. They do
 
 Both axes of the paired plots refer to the same origins: before on the horizontal axis and after on the vertical axis. The diagonal denotes no change. These plots display a distribution of access changes; they are not fitted regressions.
 
-## Walking driving and emissions
+## Walking, driving and emissions
 
 Closures can make walking less convenient when the remaining eligible destination is farther away. A nearby opening can shorten that access distance. This study measures those changes in opportunity; it cannot establish whether a person switches from walking to driving, shops less often, combines errands or chooses delivery. A store can attract additional journeys even while improving proximity, so an opening does not automatically reduce total emissions.
 
@@ -133,7 +133,7 @@ The evidence supports a location-specific interpretation of retail change. The s
 
 The Englewood sequence shows why replacement openings deserve separate attention. A new operator at the same address can restore a measure of proximity while leaving other dimensions of access unresolved. Price, product quality, reliability, opening hours and residents’ preferences require evidence beyond the location record. A complete evaluation should measure those dimensions alongside travel and visits.
 
-## Socio econometric identification strategy
+## Socio-econometric identification strategy
 
 Business exits are not randomly assigned. Declining demand and changing neighborhood conditions can affect both closures and subsequent outcomes. A credible spatial difference-in-differences design must address those trends, anticipation and spillovers. It should examine visits to surviving destinations and changes in destination shares rather than treat a mechanical fall at a closed store as the effect on household access.
 

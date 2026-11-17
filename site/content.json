@@ -3,7 +3,7 @@
   "subtitle": "Historical evidence and before and after comparisons 2021–2025",
   "author": "Emmanuel Amissah Sampson",
   "publication_date": "17 November 2026",
-  "publication_status": "Release candidate",
+  "publication_status": "Published",
   "version": "v1.0.0",
   "repository": "https://github.com/emmanuelsampson-prog/grocery-access-chicago",
   "website": "https://emmanuelsampson-prog.github.io/grocery-access-chicago/",
@@ -297,7 +297,7 @@
     },
     {
       "id": "travel",
-      "title": "Walking driving and emissions",
+      "title": "Walking, driving and emissions",
       "blocks": [
         {
           "paragraph": "Closures can make walking less convenient when the remaining eligible destination is farther away. A nearby opening can shorten that access distance. This study measures those changes in opportunity; it cannot establish whether a person switches from walking to driving, shops less often, combines errands or chooses delivery. A store can attract additional journeys even while improving proximity, so an opening does not automatically reduce total emissions."
@@ -329,7 +329,7 @@
     },
     {
       "id": "identification",
-      "title": "Socio econometric identification strategy",
+      "title": "Socio-econometric identification strategy",
       "blocks": [
         {
           "paragraph": "Business exits are not randomly assigned. Declining demand and changing neighborhood conditions can affect both closures and subsequent outcomes. A credible spatial difference-in-differences design must address those trends, anticipation and spillovers. It should examine visits to surviving destinations and changes in destination shares rather than treat a mechanical fall at a closed store as the effect on household access."
