@@ -1,0 +1,84 @@
+name: Publish research and website
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [bootstrap.zip]
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: chicago-publication
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - name: Import reviewed project files
+        shell: python
+        run: |
+          from pathlib import Path
+          import zipfile,shutil,stat
+          archive=Path('bootstrap.zip')
+          if archive.exists():
+              with zipfile.ZipFile(archive) as z:
+                  for item in z.infolist():
+                      p=Path(item.filename)
+                      assert not p.is_absolute() and '..' not in p.parts
+                      assert p.parts[0] not in {'.git','.github','.openai','dist','tmp'}
+                      assert 'data/restricted' not in str(p) or str(p)=='data/restricted/README.md'
+                      assert not stat.S_ISLNK(item.external_attr >> 16)
+                  z.extractall('.')
+              archive.unlink()
+          target=Path('data/processed/network');target.mkdir(parents=True,exist_ok=True)
+          for name in ['walk.npz','walk_nodes.npz','drive.npz','drive_nodes.npz']:
+              if Path(name).exists():shutil.move(name,target/name)
+      - name: Validate reviewed artifacts
+        run: python scripts/validate_release.py
+      - name: Commit public research record
+        run: |
+          git config user.name 'Emmanuel Sampson'
+          git config user.email 'emmanuel.sampson@gmail.com'
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m 'Publish reviewed Chicago grocery access study'
+            git push origin HEAD:main
+          fi
+      - name: Assemble static website
+        run: python scripts/assemble_site.py
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+      - name: Deploy website
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Prepare reproducible release
+        id: release
+        shell: python
+        run: |
+          import json,os,subprocess,hashlib
+          from pathlib import Path
+          p=json.loads(Path('publication.json').read_text())
+          ready=p['status']=='Published'
+          with open(os.environ['GITHUB_OUTPUT'],'a') as f:f.write('ready='+str(ready).lower()+'\n')
+          if ready:
+              subprocess.run(['git','archive','--format=zip','--output=Chicago_Grocery_Access_Project.zip','HEAD'],check=True)
+              files=[Path('Chicago_Grocery_Access_Project.zip'),*Path('outputs/public').glob('Chicago_Grocery_Access_Report.*'),*Path('data/processed/network').glob('*.npz')]
+              Path('SHA256SUMS.txt').write_text(''.join(hashlib.sha256(f.read_bytes()).hexdigest()+'  '+f.name+'\n' for f in files))
+              commit=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+              Path('release-notes.md').write_text('Chicago grocery access 2021–2025. Published 17 November 2026.\n\nVerified business events, modeled access and conditional emissions; observed travel responses remain unmeasured.\n\nThe Word and PDF reports, three executed notebooks, sixteen Matplotlib figures, public processed inputs and four historical street-graph files are included. Restricted mobility inputs are excluded.\n\nSource commit: '+commit+'\n\nStreet graphs derive from © OpenStreetMap contributors, ODbL 1.0, via Geofabrik. See data/source_manifest.json and data/network_manifest.json. SHA256SUMS.txt verifies the release assets.\n')
+      - name: Publish release assets
+        if: steps.release.outputs.ready == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create v1.0.0 --target "$(git rev-parse HEAD)" --title 'Chicago grocery access 2021–2025' --notes-file release-notes.md
+          gh release upload v1.0.0 Chicago_Grocery_Access_Project.zip outputs/public/Chicago_Grocery_Access_Report.docx outputs/public/Chicago_Grocery_Access_Report.pdf data/processed/network/*.npz SHA256SUMS.txt
