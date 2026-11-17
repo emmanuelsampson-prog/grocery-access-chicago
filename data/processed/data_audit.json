@@ -1,0 +1,28 @@
+{
+  "study_period": "2021–2025",
+  "tracts": 789,
+  "populated_tracts": 786,
+  "unmatched_acs_tracts": [],
+  "tract_population_context": 2727703.0,
+  "regional_authorization_records": 5156,
+  "regional_larger_grocery_records": 696,
+  "focal_events": 6,
+  "physical_sites": 5,
+  "projection": "EPSG:26916 — NAD83 / UTM zone 16N, metres",
+  "retailer_extent": "Chicago tract union plus 10 km; includes out-of-city alternatives in Illinois and Indiana",
+  "missing_mobility": "Institutional access verified; provider terms pending user review; no observed visit panel downloaded",
+  "completed": "Verified event dates; authorization history; inspection corroboration; Census context",
+  "limitations": [
+    "Authorization dates for other retailers are not verified physical business dates.",
+    "Larger grocery class combines USDA Supermarket, Super Store and Large Grocery Store; it is not a product, price or service-quality audit.",
+    "One tract origin represents a spatial summary, not every residence or household.",
+    "ACS 2017–2021 estimates describe pre-event context, not annual outcomes."
+  ],
+  "publication": {
+    "status": "Release candidate",
+    "publication_date": null,
+    "version": "v1.0.0",
+    "website": "https://emmanuelsampson-prog.github.io/grocery-access-chicago/",
+    "repository": "https://github.com/emmanuelsampson-prog/grocery-access-chicago"
+  }
+}

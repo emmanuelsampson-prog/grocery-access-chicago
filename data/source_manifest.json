@@ -1,0 +1,99 @@
+[
+  {
+    "id": "snap_history",
+    "url": "https://www.fns.usda.gov/sites/default/files/resource-files/snap-retailer-locator-data2005-2025.zip",
+    "file": "data/raw/snap_2005_2025.zip",
+    "description": "USDA historical SNAP authorizations as of 31 December 2025; dates are program authorizations, not physical business events",
+    "retrieved_at_utc": "2026-11-17T03:43:19.731667+00:00",
+    "bytes": 24036753,
+    "sha256": "872a6f814a63514a1f1b0c4517a90309a9fbb01d97d6e4dbb1e8b20421c08cce"
+  },
+  {
+    "id": "tracts_2020",
+    "url": "https://data.cityofchicago.org/resource/7qjk-677h.json?$limit=5000",
+    "file": "data/raw/chicago_tracts_2020.json",
+    "description": "City of Chicago Census 2020 tract polygons; Census Bureau boundaries",
+    "retrieved_at_utc": "2026-11-17T03:43:14.322796+00:00",
+    "bytes": 3797769,
+    "sha256": "b527b17ef820d8a20c03bad9da91f0b609826455c0f47d5856197bb8eefc45be"
+  },
+  {
+    "id": "community_areas_table",
+    "url": "https://data.cityofchicago.org/resource/igwz-8jzy.json?$limit=100",
+    "file": "data/raw/community_areas_table.json",
+    "description": "City of Chicago community areas (underlying spatial table)",
+    "retrieved_at_utc": "2026-11-17T03:45:49.551580+00:00",
+    "bytes": 2069583,
+    "sha256": "e6cd62bdca991d66468e2e389ef6749cd81773facc7ce1b471a0ec83084b51c1"
+  },
+  {
+    "id": "food_inspections",
+    "url": "https://data.cityofchicago.org/resource/4ijn-s7e5.json?%24select=inspection_id%2Cdba_name%2Caka_name%2Clicense_%2Cfacility_type%2Crisk%2Caddress%2Ccity%2Cstate%2Czip%2Cinspection_date%2Cinspection_type%2Cresults%2Clatitude%2Clongitude&%24where=inspection_date+%3E%3D+%272021-01-01T00%3A00%3A00%27+AND+inspection_date+%3C+%272026-01-01T00%3A00%3A00%27+AND+%28upper%28facility_type%29+like+%27%25GROCERY%25%27+OR+upper%28dba_name%29+like+%27%25WAL%25MART%25%27+OR+upper%28dba_name%29+like+%27%25WHOLE+FOODS%25%27+OR+upper%28dba_name%29+like+%27%25SAVE%25A%25LOT%25%27%29&%24order=inspection_id&%24limit=50000",
+    "file": "data/raw/food_inspections_2021_2025.json",
+    "description": "Chicago food inspections 2021\u20132025: grocery facilities and named chains. Inspection dates are evidence of visits, not store opening/closure dates",
+    "retrieved_at_utc": "2026-11-17T03:43:08.160985+00:00",
+    "bytes": 3521171,
+    "sha256": "e787c4af553c0401668f8cdb626da049ec270597acd519f7782c0fa0aadaa8e5"
+  },
+  {
+    "id": "osm_2023",
+    "url": "https://download.geofabrik.de/north-america/us/illinois-230101.osm.pbf",
+    "file": "data/raw/illinois-230101.osm.pbf",
+    "description": "OpenStreetMap Illinois snapshot 1 January 2023, via Geofabrik; ODbL 1.0",
+    "retrieved_at_utc": "2026-11-17T03:47:05.535893+00:00",
+    "bytes": 243949068,
+    "sha256": "eb62bd3e335259cedfa1ca98c08bfbbbcbc59dc6e3f09dd949fafe1b914a9d51"
+  },
+  {
+    "id": "acs2021_B01003",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2021/table-based-SF/data/5YRData/acsdt5y2021-b01003.dat",
+    "file": "data/raw/acs2021_b01003_cook.dat",
+    "description": "2017\u20132021 ACS five-year estimates and margins of error; Cook County tracts",
+    "extraction": "GEO_ID starts with 1400000US17031",
+    "rows": 1332,
+    "retrieved_at_utc": "2026-11-17T03:43:15.347762+00:00",
+    "bytes": 40065,
+    "sha256": "3e18de634009923eb950ec95c19781063f54cb9f41b7c1e1426cef915e8087db",
+    "national_source_bytes": 18447258,
+    "national_source_sha256": "8b663b4c019a5c173da08c2e0c389a82a393168894c5a31eb39cd4ddc794e82c"
+  },
+  {
+    "id": "acs2021_B08201",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2021/table-based-SF/data/5YRData/acsdt5y2021-b08201.dat",
+    "file": "data/raw/acs2021_b08201_cook.dat",
+    "description": "2017\u20132021 ACS five-year estimates and margins of error; Cook County tracts",
+    "extraction": "GEO_ID starts with 1400000US17031",
+    "rows": 1332,
+    "retrieved_at_utc": "2026-11-17T03:43:18.282820+00:00",
+    "bytes": 287170,
+    "sha256": "392911058e78d4eb85d5aa9c7cdc5faa1e03f5741103d7e81d7890320dcdd935",
+    "national_source_bytes": 65815377,
+    "national_source_sha256": "f11342b1ba907f731314f1c3a19aa829abc086eda7c404479943c468f8fa9431"
+  },
+  {
+    "id": "acs2021_B17001",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2021/table-based-SF/data/5YRData/acsdt5y2021-b17001.dat",
+    "file": "data/raw/acs2021_b17001_cook.dat",
+    "description": "2017\u20132021 ACS five-year estimates and margins of error; Cook County tracts",
+    "extraction": "GEO_ID starts with 1400000US17031",
+    "rows": 1332,
+    "retrieved_at_utc": "2026-11-17T03:43:19.826412+00:00",
+    "bytes": 523588,
+    "sha256": "2a6ce9807e253ab007eb4e5d2f77a3168bccc2557864dbca09a6e1972a1e808b",
+    "national_source_bytes": 120256640,
+    "national_source_sha256": "4e37d8649fe76f24ae33b35066c73e1f103092b1ef37477be3ba39828a7d72cc"
+  },
+  {
+    "id": "acs2021_B19013",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2021/table-based-SF/data/5YRData/acsdt5y2021-b19013.dat",
+    "file": "data/raw/acs2021_b19013_cook.dat",
+    "description": "2017\u20132021 ACS five-year estimates and margins of error; Cook County tracts",
+    "extraction": "GEO_ID starts with 1400000US17031",
+    "rows": 1332,
+    "retrieved_at_utc": "2026-11-17T03:43:19.496409+00:00",
+    "bytes": 44115,
+    "sha256": "1a1db2fcdf587d1ac8ba3c521849ef4621a4d33e3a75a7a40f056eb053bdfe28",
+    "national_source_bytes": 17960309,
+    "national_source_sha256": "b5ec13b99f90a3b5311693b5067914979f19b2963b33272865c864c026f0485a"
+  }
+]

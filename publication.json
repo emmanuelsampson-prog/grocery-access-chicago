@@ -1,0 +1,11 @@
+{
+  "status": "Release candidate",
+  "date_label": "17 November 2026",
+  "publication_date": null,
+  "study_period": "2021\u20132025",
+  "version": "v1.0.0",
+  "repository": "https://github.com/emmanuelsampson-prog/grocery-access-chicago",
+  "website": "https://emmanuelsampson-prog.github.io/grocery-access-chicago/",
+  "visual_engine": "Matplotlib",
+  "observed_mobility_estimated": false
+}

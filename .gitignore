@@ -1,0 +1,14 @@
+data/raw/
+data/restricted/*
+!data/restricted/README.md
+data/processed/route_matrix.npz
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+*.log
+.venv/
+tmp/
+dist/
+*.tar.gz
+*.zip
+

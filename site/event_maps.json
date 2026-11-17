@@ -1,0 +1,570 @@
+[
+  {
+    "id": "whole_foods_englewood",
+    "label": "Whole Foods, Englewood",
+    "type": "closure",
+    "n": 14,
+    "before": 14.410555517039185,
+    "after": 16.506062294295184,
+    "change": 2.0955067772559977,
+    "png": "outputs/figures/explorer/whole_foods_englewood.png",
+    "svg": "outputs/figures/explorer/whole_foods_englewood.svg",
+    "tracts": [
+      {
+        "geoid": "17031834700",
+        "walk_before_minutes": 16.81,
+        "walk_after_minutes": 19.539
+      },
+      {
+        "geoid": "17031681100",
+        "walk_before_minutes": 18.792,
+        "walk_after_minutes": 21.286
+      },
+      {
+        "geoid": "17031670800",
+        "walk_before_minutes": 21.256,
+        "walk_after_minutes": 27.082
+      },
+      {
+        "geoid": "17031681200",
+        "walk_before_minutes": 18.113,
+        "walk_after_minutes": 18.113
+      },
+      {
+        "geoid": "17031671100",
+        "walk_before_minutes": 20.032,
+        "walk_after_minutes": 20.032
+      },
+      {
+        "geoid": "17031680900",
+        "walk_before_minutes": 8.855,
+        "walk_after_minutes": 8.855
+      },
+      {
+        "geoid": "17031680500",
+        "walk_before_minutes": 16.63,
+        "walk_after_minutes": 16.63
+      },
+      {
+        "geoid": "17031834900",
+        "walk_before_minutes": 18.734,
+        "walk_after_minutes": 18.734
+      },
+      {
+        "geoid": "17031670100",
+        "walk_before_minutes": 16.099,
+        "walk_after_minutes": 16.099
+      },
+      {
+        "geoid": "17031680600",
+        "walk_before_minutes": 11.27,
+        "walk_after_minutes": 16.997
+      },
+      {
+        "geoid": "17031834600",
+        "walk_before_minutes": 17.836,
+        "walk_after_minutes": 17.836
+      },
+      {
+        "geoid": "17031670900",
+        "walk_before_minutes": 16.436,
+        "walk_after_minutes": 22.178
+      },
+      {
+        "geoid": "17031834800",
+        "walk_before_minutes": 7.174,
+        "walk_after_minutes": 10.025
+      },
+      {
+        "geoid": "17031681000",
+        "walk_before_minutes": 8.702,
+        "walk_after_minutes": 15.634
+      }
+    ]
+  },
+  {
+    "id": "walmart_chatham",
+    "label": "Walmart, Chatham",
+    "type": "closure",
+    "n": 10,
+    "before": 15.184523063446608,
+    "after": 15.614440129930614,
+    "change": 0.42991706648400335,
+    "png": "outputs/figures/explorer/walmart_chatham.png",
+    "svg": "outputs/figures/explorer/walmart_chatham.svg",
+    "tracts": [
+      {
+        "geoid": "17031440600",
+        "walk_before_minutes": 15.497,
+        "walk_after_minutes": 15.497
+      },
+      {
+        "geoid": "17031691200",
+        "walk_before_minutes": 7.498,
+        "walk_after_minutes": 7.498
+      },
+      {
+        "geoid": "17031834000",
+        "walk_before_minutes": 16.28,
+        "walk_after_minutes": 16.28
+      },
+      {
+        "geoid": "17031711500",
+        "walk_before_minutes": 16.19,
+        "walk_after_minutes": 16.19
+      },
+      {
+        "geoid": "17031710100",
+        "walk_before_minutes": 12.32,
+        "walk_after_minutes": 12.32
+      },
+      {
+        "geoid": "17031710800",
+        "walk_before_minutes": 21.42,
+        "walk_after_minutes": 21.42
+      },
+      {
+        "geoid": "17031711000",
+        "walk_before_minutes": 16.85,
+        "walk_after_minutes": 16.85
+      },
+      {
+        "geoid": "17031842400",
+        "walk_before_minutes": 6.578,
+        "walk_after_minutes": 7.775
+      },
+      {
+        "geoid": "17031710900",
+        "walk_before_minutes": 12.159,
+        "walk_after_minutes": 16.284
+      },
+      {
+        "geoid": "17031440300",
+        "walk_before_minutes": 17.205,
+        "walk_after_minutes": 17.205
+      }
+    ]
+  },
+  {
+    "id": "walmart_kenwood",
+    "label": "Walmart, Kenwood",
+    "type": "closure",
+    "n": 22,
+    "before": 11.483465822261993,
+    "after": 16.098620712030414,
+    "change": 4.615154889768421,
+    "png": "outputs/figures/explorer/walmart_kenwood.png",
+    "svg": "outputs/figures/explorer/walmart_kenwood.svg",
+    "tracts": [
+      {
+        "geoid": "17031390100",
+        "walk_before_minutes": 25.086,
+        "walk_after_minutes": 25.086
+      },
+      {
+        "geoid": "17031390400",
+        "walk_before_minutes": 6.608,
+        "walk_after_minutes": 17.403
+      },
+      {
+        "geoid": "17031390500",
+        "walk_before_minutes": 11.452,
+        "walk_after_minutes": 12.412
+      },
+      {
+        "geoid": "17031836300",
+        "walk_before_minutes": 9.482,
+        "walk_after_minutes": 9.482
+      },
+      {
+        "geoid": "17031381400",
+        "walk_before_minutes": 16.914,
+        "walk_after_minutes": 28.967
+      },
+      {
+        "geoid": "17031835800",
+        "walk_before_minutes": 18.773,
+        "walk_after_minutes": 18.773
+      },
+      {
+        "geoid": "17031410600",
+        "walk_before_minutes": 7.382,
+        "walk_after_minutes": 7.382
+      },
+      {
+        "geoid": "17031410200",
+        "walk_before_minutes": 3.577,
+        "walk_after_minutes": 3.577
+      },
+      {
+        "geoid": "17031381900",
+        "walk_before_minutes": 14.055,
+        "walk_after_minutes": 24.884
+      },
+      {
+        "geoid": "17031380100",
+        "walk_before_minutes": 13.524,
+        "walk_after_minutes": 13.524
+      },
+      {
+        "geoid": "17031381800",
+        "walk_before_minutes": 21.636,
+        "walk_after_minutes": 32.329
+      },
+      {
+        "geoid": "17031390300",
+        "walk_before_minutes": 8.984,
+        "walk_after_minutes": 11.502
+      },
+      {
+        "geoid": "17031410700",
+        "walk_before_minutes": 3.145,
+        "walk_after_minutes": 3.145
+      },
+      {
+        "geoid": "17031836000",
+        "walk_before_minutes": 12.538,
+        "walk_after_minutes": 17.819
+      },
+      {
+        "geoid": "17031381200",
+        "walk_before_minutes": 10.026,
+        "walk_after_minutes": 25.09
+      },
+      {
+        "geoid": "17031380200",
+        "walk_before_minutes": 7.931,
+        "walk_after_minutes": 7.931
+      },
+      {
+        "geoid": "17031390600",
+        "walk_before_minutes": 11.612,
+        "walk_after_minutes": 11.612
+      },
+      {
+        "geoid": "17031381500",
+        "walk_before_minutes": 21.122,
+        "walk_after_minutes": 26.349
+      },
+      {
+        "geoid": "17031390200",
+        "walk_before_minutes": 6.909,
+        "walk_after_minutes": 6.909
+      },
+      {
+        "geoid": "17031836100",
+        "walk_before_minutes": 24.441,
+        "walk_after_minutes": 30.195
+      },
+      {
+        "geoid": "17031843600",
+        "walk_before_minutes": 5.125,
+        "walk_after_minutes": 25.223
+      },
+      {
+        "geoid": "17031410500",
+        "walk_before_minutes": 12.473,
+        "walk_after_minutes": 12.473
+      }
+    ]
+  },
+  {
+    "id": "walmart_lakeview",
+    "label": "Walmart, Lakeview",
+    "type": "closure",
+    "n": 26,
+    "before": 9.427376634686999,
+    "after": 9.543882401656164,
+    "change": 0.11650576696916569,
+    "png": "outputs/figures/explorer/walmart_lakeview.png",
+    "svg": "outputs/figures/explorer/walmart_lakeview.svg",
+    "tracts": [
+      {
+        "geoid": "17031071100",
+        "walk_before_minutes": 7.292,
+        "walk_after_minutes": 7.292
+      },
+      {
+        "geoid": "17031071300",
+        "walk_before_minutes": 2.763,
+        "walk_after_minutes": 2.763
+      },
+      {
+        "geoid": "17031070300",
+        "walk_before_minutes": 7.646,
+        "walk_after_minutes": 7.646
+      },
+      {
+        "geoid": "17031063303",
+        "walk_before_minutes": 16.056,
+        "walk_after_minutes": 16.056
+      },
+      {
+        "geoid": "17031062200",
+        "walk_before_minutes": 9.469,
+        "walk_after_minutes": 9.469
+      },
+      {
+        "geoid": "17031061901",
+        "walk_before_minutes": 6.899,
+        "walk_after_minutes": 6.899
+      },
+      {
+        "geoid": "17031070500",
+        "walk_before_minutes": 12.805,
+        "walk_after_minutes": 12.805
+      },
+      {
+        "geoid": "17031062900",
+        "walk_before_minutes": 11.641,
+        "walk_after_minutes": 11.641
+      },
+      {
+        "geoid": "17031062100",
+        "walk_before_minutes": 4.155,
+        "walk_after_minutes": 4.155
+      },
+      {
+        "geoid": "17031063400",
+        "walk_before_minutes": 3.182,
+        "walk_after_minutes": 3.182
+      },
+      {
+        "geoid": "17031071200",
+        "walk_before_minutes": 3.091,
+        "walk_after_minutes": 3.091
+      },
+      {
+        "geoid": "17031063100",
+        "walk_before_minutes": 6.478,
+        "walk_after_minutes": 6.478
+      },
+      {
+        "geoid": "17031832000",
+        "walk_before_minutes": 9.141,
+        "walk_after_minutes": 9.141
+      },
+      {
+        "geoid": "17031061902",
+        "walk_before_minutes": 18.361,
+        "walk_after_minutes": 18.361
+      },
+      {
+        "geoid": "17031063000",
+        "walk_before_minutes": 8.239,
+        "walk_after_minutes": 8.239
+      },
+      {
+        "geoid": "17031070200",
+        "walk_before_minutes": 5.5,
+        "walk_after_minutes": 5.5
+      },
+      {
+        "geoid": "17031062000",
+        "walk_before_minutes": 7.639,
+        "walk_after_minutes": 7.639
+      },
+      {
+        "geoid": "17031063200",
+        "walk_before_minutes": 23.074,
+        "walk_after_minutes": 23.074
+      },
+      {
+        "geoid": "17031070400",
+        "walk_before_minutes": 7.803,
+        "walk_after_minutes": 7.803
+      },
+      {
+        "geoid": "17031070102",
+        "walk_before_minutes": 3.54,
+        "walk_after_minutes": 3.54
+      },
+      {
+        "geoid": "17031062800",
+        "walk_before_minutes": 10.009,
+        "walk_after_minutes": 10.009
+      },
+      {
+        "geoid": "17031061800",
+        "walk_before_minutes": 0.401,
+        "walk_after_minutes": 0.401
+      },
+      {
+        "geoid": "17031063302",
+        "walk_before_minutes": 7.843,
+        "walk_after_minutes": 8.871
+      },
+      {
+        "geoid": "17031070103",
+        "walk_before_minutes": 4.578,
+        "walk_after_minutes": 4.578
+      },
+      {
+        "geoid": "17031063301",
+        "walk_before_minutes": 3.795,
+        "walk_after_minutes": 5.702
+      },
+      {
+        "geoid": "17031070101",
+        "walk_before_minutes": 18.617,
+        "walk_after_minutes": 18.617
+      }
+    ]
+  },
+  {
+    "id": "walmart_little_village",
+    "label": "Walmart, Little Village",
+    "type": "closure",
+    "n": 12,
+    "before": 11.045522377133643,
+    "after": 11.425287728076436,
+    "change": 0.37976535094279346,
+    "png": "outputs/figures/explorer/walmart_little_village.png",
+    "svg": "outputs/figures/explorer/walmart_little_village.svg",
+    "tracts": [
+      {
+        "geoid": "17031300800",
+        "walk_before_minutes": 5.85,
+        "walk_after_minutes": 5.85
+      },
+      {
+        "geoid": "17031841200",
+        "walk_before_minutes": 9.644,
+        "walk_after_minutes": 9.644
+      },
+      {
+        "geoid": "17031301200",
+        "walk_before_minutes": 8.63,
+        "walk_after_minutes": 10.165
+      },
+      {
+        "geoid": "17031300900",
+        "walk_before_minutes": 10.887,
+        "walk_after_minutes": 10.887
+      },
+      {
+        "geoid": "17031291600",
+        "walk_before_minutes": 14.104,
+        "walk_after_minutes": 15.133
+      },
+      {
+        "geoid": "17031310900",
+        "walk_before_minutes": 10.863,
+        "walk_after_minutes": 10.863
+      },
+      {
+        "geoid": "17031841300",
+        "walk_before_minutes": 15.949,
+        "walk_after_minutes": 15.949
+      },
+      {
+        "geoid": "17031840700",
+        "walk_before_minutes": 6.825,
+        "walk_after_minutes": 8.167
+      },
+      {
+        "geoid": "17031301100",
+        "walk_before_minutes": 14.739,
+        "walk_after_minutes": 14.739
+      },
+      {
+        "geoid": "17031843300",
+        "walk_before_minutes": 20.574,
+        "walk_after_minutes": 20.574
+      },
+      {
+        "geoid": "17031843100",
+        "walk_before_minutes": 14.768,
+        "walk_after_minutes": 14.768
+      },
+      {
+        "geoid": "17031841700",
+        "walk_before_minutes": 16.603,
+        "walk_after_minutes": 16.603
+      }
+    ]
+  },
+  {
+    "id": "save_a_lot_englewood",
+    "label": "Save A Lot, Englewood",
+    "type": "opening",
+    "n": 14,
+    "before": 16.506062294295184,
+    "after": 14.410555517039185,
+    "change": -2.0955067772559977,
+    "png": "outputs/figures/explorer/save_a_lot_englewood.png",
+    "svg": "outputs/figures/explorer/save_a_lot_englewood.svg",
+    "tracts": [
+      {
+        "geoid": "17031834700",
+        "walk_before_minutes": 19.539,
+        "walk_after_minutes": 16.81
+      },
+      {
+        "geoid": "17031681100",
+        "walk_before_minutes": 21.286,
+        "walk_after_minutes": 18.792
+      },
+      {
+        "geoid": "17031670800",
+        "walk_before_minutes": 27.082,
+        "walk_after_minutes": 21.256
+      },
+      {
+        "geoid": "17031681200",
+        "walk_before_minutes": 18.113,
+        "walk_after_minutes": 18.113
+      },
+      {
+        "geoid": "17031671100",
+        "walk_before_minutes": 20.032,
+        "walk_after_minutes": 20.032
+      },
+      {
+        "geoid": "17031680900",
+        "walk_before_minutes": 8.855,
+        "walk_after_minutes": 8.855
+      },
+      {
+        "geoid": "17031680500",
+        "walk_before_minutes": 16.63,
+        "walk_after_minutes": 16.63
+      },
+      {
+        "geoid": "17031834900",
+        "walk_before_minutes": 18.734,
+        "walk_after_minutes": 18.734
+      },
+      {
+        "geoid": "17031670100",
+        "walk_before_minutes": 16.099,
+        "walk_after_minutes": 16.099
+      },
+      {
+        "geoid": "17031680600",
+        "walk_before_minutes": 16.997,
+        "walk_after_minutes": 11.27
+      },
+      {
+        "geoid": "17031834600",
+        "walk_before_minutes": 17.836,
+        "walk_after_minutes": 17.836
+      },
+      {
+        "geoid": "17031670900",
+        "walk_before_minutes": 22.178,
+        "walk_after_minutes": 16.436
+      },
+      {
+        "geoid": "17031834800",
+        "walk_before_minutes": 10.025,
+        "walk_after_minutes": 7.174
+      },
+      {
+        "geoid": "17031681000",
+        "walk_before_minutes": 15.634,
+        "walk_after_minutes": 8.702
+      }
+    ]
+  }
+]

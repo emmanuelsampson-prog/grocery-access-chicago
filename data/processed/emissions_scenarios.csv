@@ -1,0 +1,16 @@
+period,assumed_car_share,assumed_round_trips,additional_travel_share,tailpipe_co2_change_kg
+whole_foods_closure,0.0,1000,1.0,0.0
+whole_foods_closure,0.25,1000,1.0,21.487282611960648
+whole_foods_closure,0.5,1000,1.0,42.974565223921296
+whole_foods_closure,0.75,1000,1.0,64.46184783588194
+whole_foods_closure,1.0,1000,1.0,85.94913044784259
+walmart_closures,0.0,1000,1.0,0.0
+walmart_closures,0.25,1000,1.0,13.417493499639708
+walmart_closures,0.5,1000,1.0,26.834986999279415
+walmart_closures,0.75,1000,1.0,40.25248049891913
+walmart_closures,1.0,1000,1.0,53.66997399855883
+save_a_lot_opening,0.0,1000,1.0,-0.0
+save_a_lot_opening,0.25,1000,1.0,-21.487282611960648
+save_a_lot_opening,0.5,1000,1.0,-42.974565223921296
+save_a_lot_opening,0.75,1000,1.0,-64.46184783588194
+save_a_lot_opening,1.0,1000,1.0,-85.94913044784259

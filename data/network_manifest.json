@@ -1,0 +1,29 @@
+{
+  "snapshot_utc": "2023-01-01T21:21:53Z",
+  "crs": "EPSG:26916",
+  "bbox_west_south_east_north": [
+    -87.92,
+    41.62,
+    -87.5,
+    42.04
+  ],
+  "source_url": "https://download.geofabrik.de/north-america/us/illinois-230101.osm.pbf",
+  "license": "\u00a9 OpenStreetMap contributors, ODbL 1.0; Geofabrik distribution",
+  "limitations": "Fixed network for all dates. No traffic, turn restrictions, conditional permissions, comprehensive node barriers, mode choice or observed trajectories. Short straight connectors attach address and origin points to graph nodes.",
+  "files": [
+    {
+      "mode": "walk",
+      "nodes": 650510,
+      "edges": 1672862,
+      "graph_sha256": "ad1b5539c054941afa0837606dfdef17f9ee8762ca560b0feb04e49bc8be6274",
+      "node_sha256": "7440d78b28c00300e12aa0f539698dc5f9b1944d476c15e12754f2c7aa7d8a91"
+    },
+    {
+      "mode": "drive",
+      "nodes": 467360,
+      "edges": 1005662,
+      "graph_sha256": "7957374784ce232cd5db2951c3c6ebb94548c40679686ff554e51f57d69f510b",
+      "node_sha256": "66eb1db5374b81c3d82de86b3207f4f4a90f7bc0d67d26cbfd0d2682e6f83f5a"
+    }
+  ]
+}
