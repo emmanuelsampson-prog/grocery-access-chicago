@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: [bootstrap.zip]
+    paths: [bootstrap.zip, index.html, "site/**", scripts/build_site.py, scripts/assemble_site.py, publication.json, "outputs/public/**", "outputs/figures/**"]
 permissions:
   contents: write
   pages: write
@@ -40,6 +40,8 @@ jobs:
           target=Path('data/processed/network');target.mkdir(parents=True,exist_ok=True)
           for name in ['walk.npz','walk_nodes.npz','drive.npz','drive_nodes.npz']:
               if Path(name).exists():shutil.move(name,target/name)
+      - name: Build current website
+        run: python scripts/build_site.py
       - name: Validate reviewed artifacts
         run: python scripts/validate_release.py
       - name: Commit public research record
@@ -67,7 +69,9 @@ jobs:
           import json,os,subprocess,hashlib
           from pathlib import Path
           p=json.loads(Path('publication.json').read_text())
-          ready=p['status']=='Published'
+          # Preserve the original tagged research release during presentation-only updates.
+          tag_exists=subprocess.run(['git','rev-parse','--verify','refs/tags/'+p['version']],capture_output=True).returncode==0
+          ready=p['status']=='Published' and not tag_exists
           with open(os.environ['GITHUB_OUTPUT'],'a') as f:f.write('ready='+str(ready).lower()+'\n')
           if ready:
               subprocess.run(['git','archive','--format=zip','--output=Chicago_Grocery_Access_Project.zip','HEAD'],check=True)
